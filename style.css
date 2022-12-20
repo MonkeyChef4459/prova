@@ -1,0 +1,542 @@
+html,body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    color: #fbfeff;
+    background-color: #fbfeff;
+    font-family: muli, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.dx1_anim{
+    opacity: 100%;
+}
+
+
+/* NAVBAR */
+#bar{
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    top: -80px;
+    z-index: 99;
+    background: #004A7C;
+    display: flex;
+    justify-content: space-between;
+    transition: 0.5s;
+}
+
+#bar img{
+    margin: 20px;
+}
+
+#bar a{
+    align-self: center;
+    font-size: 17px;
+    padding: 5px;
+    border-radius: 10px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #fbfeff;
+}
+
+#bar a:hover{
+    color: #24c5c1;
+}
+
+#link{
+    display: flex;
+    flex-basis: 35%;
+    justify-content: space-between;
+}
+
+#blog{
+    display: flex;
+    margin-right: 1%;
+    border-radius: 25px;
+    background-color: #24c5c1;
+    align-self: center;
+    padding: 5px 20px 5px 20px;
+}
+/* FINE NAVBAR */
+
+#dx2{
+    margin: 90px 100px;
+    text-align: center;
+}
+
+#sx1{
+    height: 300px;
+    width: 35%;
+    margin: 100px 5%;
+    display: flex;
+    flex-direction: column;
+    opacity: 0;
+    transition: 1.5s;
+}
+
+#sx1 img{
+    width: 100%;
+}
+
+/* INIZIO CONTATTI */
+#contatti{
+    height: 100%;
+    margin: 0;
+    background-image: url("background_contatti1.png");
+    background-size: cover;
+    position: fixed;
+    top: 300%;
+    z-index: +99;
+    transition: 0.5s;
+}
+
+#icon_back{
+    width: 25px;
+    margin: 50px;
+    float: right;
+}
+
+#top{
+    border: 1px solid transparent;
+    height: 20%;
+    text-align: center;
+    width: 100%;
+}
+
+#titolo_contatti{
+    margin-top: 3%;
+    color: #004A7C;
+}
+
+#left_contact{
+    width: 45%;
+    height: 75%;
+    text-align: center;
+    float: left;
+}
+
+#busta{
+    width: 55%;
+    margin-top: 19%;
+}
+
+#right_contact{
+    width: 49%;
+    float: right;
+    height: 75%;
+}
+
+form{
+    float: right;
+    margin-right: 30%;
+    width: 60%;
+    height: 80%;
+}
+
+#inp,#inp1,#inp2,#but{
+    width: 80%;
+    border-radius: 50px;
+    border: 1px solid #E3E3E3;
+    padding: 10px 14px 10px 14px;
+    margin-bottom: 22px;
+    height: 6.5%;
+    font-size: 16px;
+}
+
+textarea{
+    width: 80%;
+    border-radius: 13px;
+    height: 19.5%;
+    padding: 10px 14px 10px 14px;
+    margin-bottom: 18px;
+    font-size: 16px;
+    border: 1px solid #E3E3E3;
+}
+
+#inp1{
+    margin-top: 16%;
+}
+
+#inp2{
+    margin-bottom: 5.5%;
+}
+
+#but{
+    width: 87%;
+    height: 13.5%;
+    font-size: 20px;
+    color: white;
+    background-color: #3DB6E2;
+}
+/* FINE CONTATTI */
+
+#sub{
+    font-size: 18px;
+    margin: 10px auto 10px auto;
+}
+
+a{
+    text-decoration: none;
+    color: #fbfeff;
+}
+
+a:hover{
+    color: black;
+}
+
+/* MENU */
+#menu{
+    background-color: #004A7C;
+    position: absolute;
+    right: 0;
+    width: 30%;
+    height: 100%;
+    opacity: 0;
+    float: right;
+    transition: 1s;
+    display: none;
+}
+
+#items{
+    margin: 50px 5px 5px 60px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 60px;
+    border-bottom: 0.5px solid #E8F1F5;
+}
+
+#item,#item1{
+    font-size: 40px;
+    color: #fbfeff;
+    margin: 5px 150px 5px 5px;
+}
+
+#item:hover,#item1:hover{
+    color: hsl(198, 68%, 45%);
+}
+
+#logo_menu{
+    margin: 60px 5px 5px 60px;
+    border-bottom: 0.5px solid white;
+    padding-bottom: 50px;
+}
+
+#logo_menu_im{
+    width: 150px;
+}
+
+#info{
+    font-size: 15px;
+    margin: 10px;
+}
+
+#icon_menu{
+    height: 20px;
+    margin: 5px;
+}
+/* FINE MENU */
+
+/* ICONA */
+.cont{
+    height: 50px;
+    position: absolute;
+    top: 50px;
+    right: 50px;
+    z-index: 4;
+}
+
+.line1,.line2,.line3{
+    width: 35px;
+    height: 8px;
+    background-color: #fbfeff;
+    margin: 8px auto auto 5px;
+    transition: 0.7s;
+    border-radius: 4px 4px;
+}
+
+.line1{
+    margin-top: 19px;
+}
+
+.change .line1{
+    transform: rotate(-225deg) translate(5px,-3px);
+}
+
+.change .line2{
+    transform: rotate(225deg) translate(5px,4px);
+}
+
+.change .line3{
+    transform: translateX(500px);
+}
+/* FINE ICONA */
+
+/* SET CURSOR E FLOAT */
+#menu,#more,#more1,#more2,.cont,#invia,#icon_back{
+    cursor: pointer;
+}
+
+#left,#sx,#more,#linea,#dx1,#more1,#linea1,#sx2,#linea3,#more2,#titolo4{
+    float: left;
+}
+
+.cont,#subtitle,#subtitle1,#dx2,#sx1{
+    float: right;
+}
+/* END CURSOR FLOAT */
+
+/* SET PAGE */
+#page1{
+      height: 100%;
+      background-color: #ffffff;
+      background-image: url(img_prova2.png);
+      background-repeat: no-repeat;
+      transition: 0.5s;
+      background-attachment: fixed;
+      background-size: cover;
+     
+}
+
+#page2{
+    background-color: #004A7C;
+    background-size: 100%;
+    height: 520px;
+}
+
+#page3{
+    z-index: -99;
+    color: rgb(86, 85, 85);
+}
+
+#page4{
+    background-color: #004A7C;
+    height: 600px;
+}
+
+#page5{
+    height: 230px;
+    color: #004A7C;
+}
+/* END SET PAGE */
+
+#up{
+    height: 100px;
+}
+
+#logo{
+  position: absolute;
+  top: 55px;
+  left: 50px;
+  width: 275px;
+}
+
+#sx{
+    height: 350px;
+    margin: 130px 0 0 115px;
+}
+
+#introduzione,#titolo3{
+  margin: 0;
+  font-size: 65px;
+  color: #fbfeff;
+}
+
+#introduzione{
+    margin: auto auto -10px auto;
+}
+
+#titolo,#titolo1{
+    font-size: 60px;
+    margin: 0;
+    color: #fbfeff;
+}
+/*more*/
+#piu{
+    font-size: 15px;
+    padding: 12px 30px 12px 30px;
+    border: 1.5px solid #fbfeff;
+    text-align: center;
+    position: relative;
+    top: 21px;
+    transition: all .35s;
+}
+
+#piu span{
+    position: relative;
+    z-index: 2;
+    font-weight: 600;
+}
+
+#piu:after{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: #fbfeff;
+    transition: all .35s;
+}
+
+#piu:hover{
+    color: black;
+  }
+
+#piu:hover:after{
+    width: 100%;
+}
+
+#more1{
+    margin: 18px auto auto 0;
+}
+/*end more*/
+
+#img{
+    margin: 130px auto auto 70px;
+    height: 500px;
+    width: 600px;
+}
+
+#dx1{
+    margin: 60px auto auto 100px;
+    height: 350px;
+    opacity: 0;
+    transition: 0.7s;
+}
+
+#titolo1{
+    margin-bottom: 15px;
+}
+
+#subtitle{
+    width: 500px;
+    line-height: 20px;
+}
+
+#sx2{
+    margin: 80px auto auto 96px;
+    width: 400px;
+}
+
+#subtitle2{
+    width: 400px;
+    line-height: 20px;
+}
+
+#titolo4{
+    margin: 30px auto 20px 50px;
+}
+
+#icons{
+    margin-left: 10px;
+}
+
+#loading_screen{
+    width: 100%;
+    height:100%;
+    position:fixed;
+    top:0;
+    left:0;
+    background-color:rgb(255, 255, 255);
+    background-image:url("caricamento.gif");
+    background-repeat:no-repeat;
+    background-position:center;
+    display: block;
+    z-index: 99;
+}
+
+#tit_3{
+    margin-top: 100px;
+    color: #004A7C;
+    font-style: italic;
+    font-size: 30px;
+    margin-left: 27%;
+}
+
+#text{
+    color: #004A7C;
+    width: 70%;
+    margin: 0 auto auto 3.7%;
+    line-height: 20px;
+}
+
+/* PAGE 5 */
+
+#foot{
+    border-bottom: 1px solid #004A7C;
+    margin: auto 40px auto 40px;
+}
+
+#logo_down{
+    width: 15%;
+    margin: 70px auto 70px 60px;
+}
+
+#cont_down,#ind_down{
+    float: right;
+    margin: 1% 3% auto auto;
+}
+
+#end{
+    display: flex;
+    margin-top: 12px;
+}
+
+#end1,#end2{
+    color: #004A7C;
+    font-size: 15px;
+    margin-left: 3.8%;
+}
+
+#end2{
+    margin-left: auto;
+    margin-right: 3.8%;
+}
+
+/* FINE PAGE 5 */
+
+
+/* PAGE 3 */
+
+/* FINE PAGE 3 */
+
+#dx1 strong, #sx2 strong{
+    color: #24c5c1;
+}
+
+/*TABELLE*/
+table{
+    border-collapse: collapse;
+    text-align: center;
+    width: 40%;
+}
+
+td,th{
+    border-bottom: 1px solid #ddd;
+    padding: 8px;
+}
+
+tr:hover{
+    background-color: #ddd;
+}
+
+#tab_dx{
+    float: right;
+}
+
+#tab_sx{
+    float: left;
+}
+/*END TABELLE*/
+
+#consulente, #rischio{
+    clear: both;
+}
+
+.tradingview-widget-container{
+    width: 80%;
+    height: 100%;
+}
