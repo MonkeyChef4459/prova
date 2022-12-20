@@ -226,6 +226,7 @@
             <canvas id="myChart" style="width:100%;max-width:700px;"></canvas>
         </div>
 
+    <?php include('footer.php');?>
 
         <script src="script.js"></script>
     </body>
