@@ -1,0 +1,74 @@
+html,body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    color: #fbfeff;
+    background-color: #fbfeff;
+    font-family: muli, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#page1{
+    height: 70%;
+    width: 100%;
+}
+
+#logo{
+    position: absolute;
+    top: 40px;
+    left: 30px;
+    width: 300px;
+}
+
+#who{
+    color: #004A7C;
+    text-align: center;
+    margin: 15% 20% auto 20%;
+}
+
+#who p{
+    color: rgb(86, 85, 85);
+}
+
+#page2{
+    background-color: #004A7C;
+    height: 700px;
+    color: #fbfeff;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(5,1fr);
+}
+
+#page2 #title{
+    text-align: center;
+    padding-top: 50px;
+    grid-column: span 3;
+}
+
+#uno{
+    grid-row: span 4;
+}
+
+#due{
+    height: 80%;
+    margin: 10% 5% 10% 5%; 
+    border-radius: 0 0 70px 0;
+    background-color: #fbfeff;
+    text-align: center;
+}
+
+#due img{
+    width: 50%;
+}
+
+#due h3{
+    color: #004A7C;
+}
+
+#due p{
+    color: rgb(86, 85, 85);
+    margin: auto 5% auto 5%;
+}
+
